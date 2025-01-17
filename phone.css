@@ -1,0 +1,44 @@
+@media (max-width:700px) {
+
+.flexbox {
+    flex-direction: column;
+}
+
+
+#Travellino {
+    background-size: 100vw 100%;
+    height: fit-content;
+}
+
+#Travellino figure {
+    width: 80%;
+    margin: 15px auto;
+}
+
+#mesta {
+    flex-direction: column;
+}
+
+#mesta figure {
+    width: 80%;
+    margin: auto;
+}
+
+#statistika {
+flex-wrap: wrap;
+gap: 5px;
+}
+
+#statistika figure {
+    width: 30%;
+}
+
+#gora h3 {
+    padding-top: 5vh;
+    font-size: 36px;
+}
+
+#volna2 {
+    margin-top: 60px;
+}
+}

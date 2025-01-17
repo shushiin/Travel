@@ -1,0 +1,50 @@
+@media (max-width:1200px) {
+
+
+    #Travellino {
+        background-size: 100vw 100%;
+        height: fit-content;
+    }
+
+    .flexbox {
+        flex-wrap: wrap;
+    }
+
+    #Travellino figure {
+        margin: 10px;
+        box-sizing: border-box;
+        width: 40%;
+    }
+
+    #Travellino figure:last-child {
+      width: calc(80% + 20px);
+      box-sizing: border-box;
+    }
+
+    #mesta {
+        gap: 5px;
+        justify-content: space-evenly;
+    }
+
+    #mesta figure {
+        width: 19%;
+        margin: 0;
+    }
+
+    #gora h3 {
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    #gora button {
+        margin-left: 0%;
+    }
+    #gora {
+        text-align: center;
+    }
+
+    #statistika h4 {
+        font-size: 30px;
+    }
+    
+}

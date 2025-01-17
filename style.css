@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Merriweather;
+    src: url(font/Merriweather/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(font/lato/Lato-Regular.ttf);
+}
+
+header {
+    background-image: url(img/bg-home.webp);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.infa {
+    margin: auto;
+    font-family: Merriweather;
+    color: #fff;
+    text-align: center;
+   }
+
+.infa h1 {
+font-size: 5vw;
+text-shadow: 1px 2px #0000008c;
+}
+.infa h2 {
+    font-size: 2vw;  
+    text-shadow: 1px 2px #0000008c;
+}
+.filter_infa {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(26, 26, 26, 0.356);
+}
+
+.elementor-shape-fill {
+    fill: #fff;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+header svg {
+    position: absolute;
+    bottom:-1px;
+    left:0;
+    transform: scaleY(-1);
+}
+
+#zagolov {
+    text-align: center;
+}
+
+#zagolov h2 {
+    font-size: 40px;
+}
+
+#zagolov p {
+    font-size: 20px;
+    color: #9c9c9c;
+}
+
+#mesta {
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#mesta figure {
+    width: 15%;
+    margin: 0;
+}
+
+#mesta figcaption {
+    /* background-color: aquamarine; */
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+}
+
+#mesta figcaption * {
+margin-bottom: 0;
+}
+
+#mesta h4 {
+    font-size: 20px;
+}
+
+#mesta p {
+font-size: 15px;
+color: #9c9c9c;
+}
+#mesta img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+    /* border-right: 15px solid #ffffff; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.14);
+}
+
+#Travellino {
+    background-image: url(img/bg-121.jpg);
+    background-size: cover;
+    /* height: 74vh; */
+}
+
+#Travellino svg {
+    margin-top: -1px;
+    height: 50px;
+    width: 100%;
+}
+
+#Travellino h2 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 1px #00000080;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+#Travellino figure {
+    background: #fff;
+    width: 15%;
+    min-width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+#Travellino h4 {
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#Travellino p {
+    font-size: 15px;
+    color: #858585;
+}
+
+#volna_vnizu {
+    margin-top: 40px;
+    transform: scale(-1);
+}
+
+#statistika {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+#statistika h4 {
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: Lato;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#statistika p {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #858585;
+    margin-top: 0;
+}
+
+#statistika img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+#gora {
+    background-image: url(img/background-09-1920x900.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+ 
+#gora svg {
+    margin-top: -1px;
+    height: 50px;
+    width: 100%;
+}
+
+#gora h3 {
+    margin-left: 40%;
+    padding-top: 5%;
+    font-family: "Lato", Sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color:#fff
+}
+
+.filter2 {
+    background-color: rgba(26, 26, 26, 0.356);
+    height: 50vh;
+}
+
+#gora button {
+    margin-left: 67%;
+    font-family: "Lato", Sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    background-color: #572f59;
+    border-radius: 50px 50px 50px 50px;
+    padding: 16px 47px 15px 47px;
+    border: unset;
+    color: #fff;
+}
+
+#gora button:hover {
+    background-color: #914b13;
+    cursor: pointer;
+}
+
+#volna2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    transform: scale(-1);
+}
+
+
