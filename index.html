@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="phone.css">
 </head>
 <body>
-    <!-- https://demo.templatemonster.com/ru/demo/51647.html -->
+    <!-- https://demo.templatemonster.com/ru/demo/70827.html -->
     <!-- https://demo.templatemonster.com/ru/demo/79863.html -->
+    <!-- https://demo.templatemonster.com/ru/demo/70827.html -->
      
     <header>
        <div class="filter_infa">
@@ -202,6 +203,65 @@
           </div>
 
         </section>
+ 
+        <section id="broni">
+           <form action="" id="blank">
+            <h2>Бронирование</h2>
+            <p><input type="text" id="FIO" placeholder="ФИО" required></p>
+            <!-- <p> <input type="text" name="" id="CTRANA" placeholder="СТРАНА"></p> -->
+             <p>
+                <select name="" id="strana">
+                    <option value="Турция">Турция</option>
+                    <option value="Испания">Испания</option>
+                    <option value="Соедененные">Содиненные штаты</option>
+                    <option value="Словения">Словения</option>
+                    <option value="Швейцария">Швейцария</option>
+                </select>
+             </p>
+            <p>ДАТА ВЫЛЕТА <input type="date" name="" id="date"></p>
+            <p><input type="number" name="" id="night" placeholder="ЧИСЛО НОЧЕЙ" required></p>
+            <p> <input type="number" name="" id="person" placeholder="ЧИСЛО ПРОЖИВАЮЩИХ" required></p>
+            <p><input type="submit" value="Забранировать"></p>
+           </form>
+        </section>
+
+        <footer>
+            <div>
+                <img src="img/555.png" alt="">
+                <p>Since 2002, we have been offering travel services of the highest quality, combining our energy and enthusiasm.</p>
+            </div>
+
+            <div>
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>732/21 Second Street, Manchester,King Street, Kingston United Kingdom</li>
+                    <li>345-677-554</li>
+                    <li>info@demolink.org</li>
+                </ul>
+            </div>
+                
+            <div>
+                <h3>Follow</h3>
+                <img src="img/f.png" alt="">
+                <img src="img/p.png" alt="">
+                <img src="img/y.png" alt="">
+                <img src="img/in.png" alt="">
+            </div>
+        </footer>
+
+
+
+        <section id="modal">
+                <h2>Вы забранировали:</h2>
+                <p id="FIO2">ФИО</p>
+                <p id="strana2">Страна</p>
+                <p id="date2">Дата вылета</p>
+                <p id="night2">Число ночей</p>
+                <p id="person2">Число проживающих</p>
+                <p><input type="button" value="Закрыть" onclick="zakrit()"></p>
+        </section>
+        <script src="script.js"></script>
+
 
 </body>
 </html>
