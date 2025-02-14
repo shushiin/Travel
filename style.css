@@ -17,7 +17,7 @@ header {
 
 body {
     margin: 0;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 .infa {
@@ -247,3 +247,65 @@ color: #9c9c9c;
 }
 
 
+#broni form {
+    border: 7px solid #222222;
+    width: fit-content;
+    margin: auto;
+    width: 25%;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#broni {
+    padding: 50px;
+ 
+}
+
+#broni input, #broni select {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#broni [type=submit] {
+    background-color: #572f59;
+    color: #fff;
+} 
+
+
+
+#modal {
+    padding: 100px;
+    width: fit-content;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    background-color: #ffffffcc;
+    border: 5px solid #444444;
+    z-index: 1;
+    display: none;
+}
+
+ footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 50px;
+    color: #9c9c9c;
+    border-top: 1px solid #000;
+ }
+
+ footer div {
+    width: 20%;
+ 
+ }
+
+ .social img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+ }
